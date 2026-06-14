@@ -1,0 +1,6 @@
+Explicación de comandos:
+- uname -a: Muestra toda la información del sistema operativo y del kernel de Linux (nombre de la máquina, arquitectura del procesador, versión, etc.).
+- whoami: Muestra el nombre exacto del usuario actual que tiene abierta la sesión en la terminal.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Es fundamental porque permite verificar qué versión exacta del sistema operativo se está ejecutando para aplicar los parches de seguridad correctos. Además, saber qué usuario eres (por ejemplo, si eres 'root' o un usuario común) evita cometer errores graves de permisos que puedan tumbar el servidor o dejarlo vulnerable.
